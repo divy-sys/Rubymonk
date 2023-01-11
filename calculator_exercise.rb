@@ -1,4 +1,4 @@
-
+# Need to work on indentation
     def addition
         puts"Which number you want for addition ?"
         n1 = gets.chomp.to_i
@@ -33,6 +33,9 @@
 
     puts "Would you like to [add], [multiply], [subtract] or [divide]?"
     response = gets.chomp
+
+# Never use then for if blocks or any blocks
+# and use if...elsif...end block if you know that there are many if conditions.
 if response == "add" then
     addition
 end
@@ -45,3 +48,5 @@ end
 if response == "divide" then
     division
 end
+    
+# Nice Effort. Keep up the good work :)
